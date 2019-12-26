@@ -114,7 +114,7 @@ else
     echo -e "                              \e[31m\033[1mSorry Wrong Input, Try again.\e[39m\033[0m"
     echo
   else
-    echo "\033[1mHere you go getting things ready. Allowing all scripts to be executed.\033[0m"
+    echo -e "\033[1mHere you go getting things ready. Allowing all scripts to be executed.\033[0m"
     chmod +777 aiml/*
     chmod +777 aiml/standard/*
     chmod +777 modules/*
