@@ -119,7 +119,7 @@ else
     chmod +777 aiml/standard/*
     chmod +777 modules/*
     chmod +777 *
-    sleep
+    sleep 3s
   fi
 echo -e "\033[1mlinuxenum is getting permissions to execute.\033[0m"
 sleep 3s
