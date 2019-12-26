@@ -22,7 +22,7 @@ This bot is a combination of ChatBot and hacking tools
 * Shellshock
 * Mimipenguin
 
-### Installation
+### Installation and Usage
 ```
 git clone https://github.com/yahu1031/chaterbot
 cd chaterbot
@@ -31,16 +31,6 @@ chmod +x install.sh
 ```
  Update your api keys in _modules/virustotal-api.py_ and _modules/twittersecrets.py_
  To get API keys go to https://apps.twitter.com/ and https://www.virustotal.com
- 
- ### Usage
- **Python v2.7 required**
- 
- ```
- python hackerbot.py
- 
- arguments in chat:
-    !help          show what you can do
-```
 
 ### ScreenShots
 ![help](https://github.com/omergunal/hackerbot/blob/master/img/11.png)
